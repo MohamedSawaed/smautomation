@@ -1,0 +1,70 @@
+/* Styling for the vision section */
+.vision-section {
+  background-color: #f8f9fa;
+  padding: 60px 40px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin: 30px;
+}
+
+.vision-section h2 {
+  color: #0056b3;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.vision-section .tagline {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.vision-section p {
+  color: #666;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.vision-section .core-values {
+  font-style: italic;
+  margin-bottom: 30px;
+}
+
+.vision-section button {
+  font-size: 1rem;
+  color: white;
+  background-color: #007BFF;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.vision-section button:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+  .vision-section {
+    padding: 40px 20px;
+  }
+
+  .vision-section h2 {
+    font-size: 2rem;
+  }
+
+  .vision-section p, .vision-section .tagline, .vision-section .core-values {
+    font-size: 1rem;
+  }
+
+  .vision-section button {
+    padding: 10px 20px;
+  }
+}

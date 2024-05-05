@@ -1,0 +1,60 @@
+/* Container styling for the why-choose-us section */
+.why-choose-us-section {
+  background-color: #e9ecef;
+  padding: 80px 40px;
+  text-align: center;
+  border-radius: 10px; /* smooth corners for a modern look */
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1); /* subtle shadow to lift the section off the page */
+  margin: 40px auto; /* centered with a margin */
+  max-width: 1000px; /* constrain the maximum width for better readability */
+}
+
+/* Header styling within the section */
+.why-choose-us-section h2 {
+  color: #222;
+  margin-bottom: 30px;
+  font-size: 2.5rem; /* larger text for impact */
+  font-weight: 600; /* medium weight for clean appearance */
+  letter-spacing: -0.5px; /* reduce spacing to increase legibility */
+}
+
+/* List styling for clean and modern appearance */
+.why-choose-us-section ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 auto; /* centering the list */
+  max-width: 800px; /* optimal width for readability */
+}
+
+/* List item styling for clear, readable content */
+.why-choose-us-section li {
+  font-size: 1.2rem; /* larger font size for emphasis */
+  color: #333;
+  margin-bottom: 15px; /* more space between items */
+  padding: 10px; /* padding for touch friendliness */
+  border-left: 4px solid #007BFF; /* vertical bar for a visual cue */
+  text-align: left; /* align text to the left for traditional reading flow */
+  transition: all 0.3s ease; /* transition for hover effects */
+}
+
+/* Hover effect for list items */
+.why-choose-us-section li:hover {
+  background-color: #f8f9fa; /* light background on hover for emphasis */
+  transform: translateX(10px); /* subtle shift to right to indicate interactivity */
+  border-left-color: #0056b3; /* darker blue for visual feedback */
+}
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+  .why-choose-us-section {
+      padding: 50px 20px; /* smaller padding on smaller screens */
+  }
+
+  .why-choose-us-section h2 {
+      font-size: 2rem; /* slightly smaller heading for smaller screens */
+  }
+
+  .why-choose-us-section li {
+      font-size: 1rem; /* adjust font size for mobile readability */
+  }
+}

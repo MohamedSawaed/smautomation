@@ -1,0 +1,63 @@
+/* Container for services section */
+.services-section {
+  background-color: #fff;
+  padding: 80px 40px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* subtle shadow for depth */
+  border-radius: 8px; /* smooth corners */
+  margin: 75px auto; /* centered with margin */
+  max-width: 1200px; /* optimal max width for content */
+}
+
+/* Heading styling with more character */
+.services-section h2 {
+  color: #222;
+  margin-bottom: 40px; /* more space under the heading */
+  font-size: 2.5rem; /* larger text for impact */
+  font-weight: 600; /* semi-bold for better readability */
+  letter-spacing: -0.5px; /* tighten letter spacing for a modern look */
+}
+
+/* Grid layout for services */
+.services-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* responsive grid */
+  gap: 30px; /* larger gap for better separation */
+  padding: 0 20px; /* padding for the grid */
+}
+
+/* Individual service block styling */
+.service {
+  background: #f9f9f9; /* subtle background for each service */
+  padding: 30px;
+  border-radius: 5px; /* rounded corners for each service block */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* smooth transitions for interactions */
+}
+
+.service h3 {
+  color: #007BFF; /* vibrant blue for titles */
+  margin-bottom: 15px; /* spacing after titles */
+  font-size: 1.75rem; /* larger font size for headings */
+}
+
+.service p {
+  color: #555; /* softer color for text */
+  font-size: 1rem; /* optimal font size for readability */
+  line-height: 1.6; /* line height for better text flow */
+}
+
+/* Hover effect for service blocks */
+.service:hover {
+  transform: translateY(-10px); /* slight raise to indicate interactivity */
+  box-shadow: 0 12px 24px rgba(0,0,0,0.15); /* deeper shadow for focus */
+}
+
+/* Responsive adjustments for smaller devices */
+@media (max-width: 768px) {
+  .services-section {
+      padding: 50px 20px; /* adjust padding for smaller screens */
+  }
+  .services-list {
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* adjust grid columns for smaller devices */
+  }
+}

@@ -1,0 +1,61 @@
+/* Styling for the bid section */
+.bid-section {
+    background-color: #f8f9fa;
+    padding: 40px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 85px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .bid-section h2 {
+    color: #0056b3;
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
+  
+  .bid-section p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for the form */
+  .bid-form input,
+  .bid-form textarea {
+    width: 90%;
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .bid-form textarea {
+    height: 100px;
+  }
+  
+  .bid-form button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .bid-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  @media (max-width: 768px) {
+    .bid-form input,
+    .bid-form textarea,
+    .bid-form button {
+      width: 100%;
+    }
+  }
+  

@@ -1,0 +1,51 @@
+/* Styling for the contact form */
+.contact-us {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.contact-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact-form input,
+.contact-form button {
+    flex-grow: 1;
+    padding: 10px;
+    margin: 0 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"] {
+    flex-grow: 2;  /* Gives more room to text and email inputs */
+}
+
+.contact-form button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+    .contact-form {
+        flex-direction: column;
+    }
+
+    .contact-form input,
+    .contact-form button {
+        flex-grow: 1;
+        margin: 5px 0;
+    }
+}

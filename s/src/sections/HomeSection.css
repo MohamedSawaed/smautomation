@@ -1,0 +1,72 @@
+/* General styling for the home section */
+.home-section {
+  background-color: #f4f4f4;
+  color: #333;
+  padding: 40px;
+  text-align: center;
+}
+
+.home-section h1 {
+  color: #0056b3;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.home-section p {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+
+.home-subtext {
+  max-width: 800px;
+  margin: 20px auto 30px;
+}
+
+/* Highlights section styling */
+.home-highlights {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+.highlight {
+  width: 30%;
+}
+
+.highlight strong {
+  font-size: 1.3rem;
+  color: #007BFF;
+}
+
+.highlight p {
+  font-size: 1rem;
+  color: #666;
+}
+
+/* Button styling */
+.home-section button {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.home-section button:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+  .home-highlights {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .highlight {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+}
